@@ -2,7 +2,7 @@
 
 ## Installation
 This repository is adapted from the PonyGE2 repository, which can be seen in 
-src/PonyGE2. Important installation instructions can be found in the README there regarding 
+[src/PonyGE2](src/PonyGE2). Important installation instructions can be found in the README there regarding 
 general setup, and a link to the original repository is included as well. In the 
 original repository there is a detailed wiki documenting how much of the GE algorithm 
 works. 
@@ -14,7 +14,7 @@ the src folder and the PonyGE2 folder.
 ## Adding Novelty
 
 Novelty experiments can be run by adjusting the novelty parameters in 
-src/PonyGE2/parameters/progsys.txt.
+[src/PonyGE2/parameters/progsys.txt](src/PonyGE2/parameters/progsys.txt).
 
 Important parameters include:  
 __SELECTION__ - Use "lexicase_and_novelty" to run a combination of novelty search and 
@@ -31,7 +31,7 @@ __NOVELTY_BY_GEN__: - Use the knob on a per generation basis, or on a per indivi
 
 
 ## Notes
-Novelty search may not work for all problem choices located in src/PonyGE2/grammars/progsys/ as some 
+Novelty search may not work for all problem choices located in [src/PonyGE2/grammars/progsys](src/PonyGE2/grammars/progsys) as some 
 modifications have been made to the grammars. However, it should definitely work for 
 Median, Smallest, String Lengths Backwards, Number IO, Negative To Zero, Vectors Summed, and 
 Small or Large. 
